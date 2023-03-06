@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>VISTAS Registration form</title>
+
+	<!-- setting the view port to make your website look good on all device -->
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <!-- Define keywords for search engines: -->> 
+     <meta name="keywords" content="VISTAS Student Registration form,">
+
+     <!-- Define a description of your web page: -->
+     <meta name="description" content="VISTAS Student Registration form">
+
+     <!-- Define Author of the web page: -->
+     <meta name="Author" content="Praveen kumar">
+
+     <!-- Define search Engine to follow updates in website: -->
+     <meta name="robots" content="index,follow" />
+
+     <!-- Font awesome link -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+     <!-- <link rel="stylesheet" href="style.css"> -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+<style>
+    
+body{
+        background-color: aliceblue;
+        font-family: Times New Roman;  
+    }
+#btn{
+    background-color: red;
+    color: whitesmoke;
+    padding: 2px 2px 2px 2px;
+}
+    @media only screen and (max-width: 600px) {#main {margin-left: 0}}
+}
+</style>
+</head>
+
+<body>
+    
+        <img src="assets/img/img14.png" alt="logo" height="350px" width="100%">
+
+            <h1 style="text-align: center;"><b>Registration Form</b></h1>
+            <marquee>
+                <p>
+                <b><q>Please fill this form for registration.</q></b>
+            </p>
+
+        </marquee>
+
+        <hr>
+
+    <div class="container mt-5 mb-5">
+
+    <div class="form group text-black">
+        
+        <label for="name"><b>First Name:</b></label> 
+        <input type="text" id="name" name="name" placeholder="Enter Name" class="form-control">
+        <br>
+        <label for="lname"><b>Last Name:</b></label> 
+        <input type="text" id="lname" placeholder="Enter Name" name="lname" class="form-control">
+        <br>
+        <label for="dob"><b>DOB:</b></label>
+        <input type="date" id="dob" name="dob" min="1980-01-01" max="2022-12-31" class="form-control">
+        <br>
+        <label for="aaadharnumber"><b>Aaadhar Number:</b></label> 
+        <input type="number" id="aaadharnumber" placeholder="XXXX XXXX XXXX" name="aaadharnumber" class="form-control">
+        <br>
+        <label for="title"><b>Blood Group:</b></label>
+        <select name="title" id="title" class="form-control">
+        <option value="A+">A+</option>
+        <option value="A-">A-</option>
+        <option value="B+">B+</option>
+        <option value="B-">B-</option>
+        <option value="O+">O+</option>
+        <option value="O-">O-</option>
+        <option value="AB+">AB+</option>
+        <option value="AB-">AB-</option>
+        </select>
+        <br>
+        <label for="age"><b>Age:</b></label>
+        <input type="number" id="age" name="age" min="01" max="42" class="form-control">
+        <br>
+        <label for="gender"><b>Gender:</b></label>
+        <input type="text" id="gend" placeholder="Enter gender" name="gender" class="form-control">
+        <br>
+        <label for="email"><b>Email:</b></label>
+        <input type="email" id="mail" placeholder="Enter Email" name="email" class="form-control">
+        <br>
+        <label for="mobile"><b>Mobile No:</b></label>
+        <input type="number" id="mobile" placeholder="Enter Mobile No." name="mobile" class="form-control">
+        <br>
+        <label for="address"><b>Address:</b></label>
+        <br>
+        <textarea name="address" id="add" placeholder="Type your address." class="form-control"></textarea>
+        <br>
+        <label for="city"><b>City:</b></label> 
+        <input type="text" id="cit" placeholder="Enter City" name="city" class="form-control">
+        <br>
+        <label for="pincode"><b>Pincode:</b></label> 
+        <input type="Pincode" id="pin" placeholder="Enter Pincode" name="pincode" class="form-control">
+        <br>
+        <label for="state"><b>State:</b></label> 
+        <input type="state" id="stat" placeholder="Enter State" name="state" class="form-control">
+        <br>
+        <label for="country"><b>Country:</b></label> 
+        <input type="country" id="count" placeholder="Enter Country" name="country" class="form-control">
+        <br>
+</div>
+<br>
+<div>
+<h4>Feed back:</h4>
+    <textarea name="feedback" id="feed" placeholder="Say Something About You."></textarea>
+    <br><br>
+      
+      <button type="button" id="btn" class="register">Register</button>
+</div>
+</div>   
+</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
